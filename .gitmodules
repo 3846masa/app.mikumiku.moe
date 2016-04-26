@@ -6,3 +6,7 @@
 	path = fMeganeS
 	url = https://github.com/3846masa/fMeganeS.git
 	branch = gh-pages
+[submodule "DOUGAZOSAN"]
+	path = DOUGAZOSAN
+	url = https://github.com/3846masa/DOUGAZOSAN.git
+	branch = gh-pages
