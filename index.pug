@@ -19,11 +19,16 @@ html
     meta(name="viewport", content="initial-scale=1.0")
     title 3846masa Apps
     link(href="//cdn.jsdelivr.net/semantic-ui/2.1.8/semantic.min.css", rel="stylesheet")
-  body.ui.main.container
-    h1.ui.header 3846masa Apps
-    .ui.three.column.grid
-      +card({
-        title: 'NicoCast',
-        description: 'Play niconico on ChromeCast',
-        href: 'https://nicocast.mikumiku.moe'
-      })
+    style.
+      .main.container {
+        margin-top: 2em;
+      }
+  body
+    div.ui.main.container
+      h1.ui.header 3846masa Apps
+      .ui.three.column.grid
+        +card({
+          title: 'NicoCast',
+          description: 'Play niconico on ChromeCast',
+          href: 'https://nicocast.mikumiku.moe'
+        })
