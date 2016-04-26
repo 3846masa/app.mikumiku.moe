@@ -1,0 +1,4 @@
+[submodule "WindowHideTool"]
+	path = WindowHideTool
+	url = https://github.com/3846masa/WindowHideTool.git
+	branch = gh-pages
