@@ -1,0 +1,27 @@
+{
+  "name": "app.mikumiku.moe",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "watch": "npm-run-all --parallel watch:*",
+    "watch:browser-sync": "browser-sync start --server --files [ ./index.html ] --port 8000 --host ubuntu.local",
+    "watch:pug": "pug index.pug -o . -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3846masa/app.mikumiku.moe.git"
+  },
+  "author": "3846masa <3846masahiro+git@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/3846masa/app.mikumiku.moe/issues"
+  },
+  "homepage": "https://github.com/3846masa/app.mikumiku.moe#readme",
+  "devDependencies": {
+    "browser-sync": "^2.12.5",
+    "npm-run-all": "^1.8.0",
+    "pug-cli": "^1.0.0-alpha1"
+  }
+}
