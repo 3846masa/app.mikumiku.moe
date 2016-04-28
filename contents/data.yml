@@ -19,3 +19,7 @@ products:
     description: Hide windows in an emergency
     href: ./WindowHideTool
     img: ./assets/logos/png/wht.png
+  - title: nicoRC
+    description: Restore design to niconico(RC)
+    href: https://chrome.google.com/webstore/detail/hbnkckjjmfndajfdkdnkhlkpgjhmnfci
+    img: ./assets/logos/png/nicorc.png
