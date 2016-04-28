@@ -15,3 +15,7 @@ products:
     description: Dynamic subsetting system for Japanese fonts
     href: https://japont.mikumiku.moe
     img: ./assets/logos/png/japont.png
+  - title: WindowHideTool
+    description: Hide windows in an emergency
+    href: ./WindowHideTool
+    img: ./assets/logos/png/wht.png
