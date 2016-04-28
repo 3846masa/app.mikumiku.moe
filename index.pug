@@ -25,6 +25,13 @@ html
       .main.container {
         padding-top: 2em;
       }
+      .b-lazy {
+        opacity: 0;
+        transition: all 500ms;
+      }
+      .b-loaded {
+        opacity: 1;
+      }
     script(src="//cdn.jsdelivr.net/blazy/1.5.4/blazy.min.js")
     script.
       ;new Blazy();
