@@ -31,3 +31,7 @@ products:
     description: Customizable and static-servable URL shortener
     href: https://sush.ml
     img: ./assets/logos/png/sush.png
+  - title: Paperist
+    description: '[Under Development] Write a paper as markdown'
+    href: ./paperist/
+    img: ./assets/logos/png/paperist.png
