@@ -12,6 +12,6 @@ products:
     href: https://processin.ga
     img: ./assets/logos/png/processinga.png
   - title: Japont
-    description: Dynamic subsettings system for Japanese fonts
+    description: Dynamic subsetting system for Japanese fonts
     href: https://japont.mikumiku.moe
     img: ./assets/logos/png/japont.png
