@@ -1,0 +1,10 @@
+{
+  prodInfos: [
+    {
+      title: 'NicoCast',
+      description: 'Play niconico on ChromeCast',
+      href: 'https://nicocast.mikumiku.moe',
+      img: './assets/nicocast.png'
+    }
+  ]
+}

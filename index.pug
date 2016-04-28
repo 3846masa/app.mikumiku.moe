@@ -26,9 +26,6 @@ html
   body
     div.ui.main.container
       h1.ui.header 3846masa Apps
-      .ui.three.column.grid
-        +card({
-          title: 'NicoCast',
-          description: 'Play niconico on ChromeCast',
-          href: 'https://nicocast.mikumiku.moe'
-        })
+      .ui.doubling.stackable.three.column.grid
+        each prodInfo in prodInfos
+          +card(prodInfo)
