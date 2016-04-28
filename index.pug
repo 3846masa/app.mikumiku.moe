@@ -25,6 +25,9 @@ html
       .main.container {
         padding-top: 2em;
       }
+      .ui.cards {
+        margin-top: 0;
+      }
       .b-lazy {
         opacity: 0;
         transition: all 500ms;
@@ -36,7 +39,7 @@ html
     script.
       ;new Blazy();
   body
-    div.ui.main.container
+    .ui.main.container
       h1.ui.header 3846masa Apps
       .ui.doubling.stackable.three.column.grid.cards
         each product in products
