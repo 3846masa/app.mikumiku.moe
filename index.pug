@@ -1,16 +1,15 @@
 mixin card(opts)
-  .column
-    .ui.fluid.card
-      .image
-        img(src=opts.img)
-      .content
-        .header= opts.title
-        .description= opts.description
-      a.ui.bottom.attached.button(
-        href=opts.href, target="_blank"
-      )
-        span Go!
-        i.arrow.right.icon
+  .ui.fluid.card
+    .image
+      img(src=opts.img)
+    .content
+      .header= opts.title
+      .description= opts.description
+    a.ui.bottom.attached.button(
+      href=opts.href, target="_blank"
+    )
+      span Go!
+      i.arrow.right.icon
 
 doctype html5
 html
@@ -26,6 +25,6 @@ html
   body
     div.ui.main.container
       h1.ui.header 3846masa Apps
-      .ui.doubling.stackable.three.column.grid
+      .ui.doubling.stackable.three.column.grid.cards
         each product in products
           +card(product)
