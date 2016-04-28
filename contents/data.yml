@@ -27,3 +27,7 @@ products:
     description: See-through HMD which using Android and plastic panel
     href: ./fMeganeS/
     img: ./assets/logos/png/fMeganeS.png
+  - title: SUSH
+    description: Customizable and static-servable URL shortener
+    href: https://sush.ml
+    img: ./assets/logos/png/sush.png
