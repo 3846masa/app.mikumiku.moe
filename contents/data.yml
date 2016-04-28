@@ -1,0 +1,9 @@
+products:
+  - title: NicoCast
+    description: Play niconico on ChromeCast
+    href: https://nicocast.mikumiku.moe
+    img: ./assets/nicocast.png
+  - title: DOGAZOSAN
+    description: Markdown editor that be easy to quote
+    href: ./DOGAZOSAN
+    img: ./assets/dogazosan.png
