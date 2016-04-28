@@ -1,7 +1,10 @@
 mixin card(opts)
   .ui.fluid.card
     .image
-      img(src=opts.img)
+      img.b-lazy(
+        src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAABAABAAACADs=",
+        data-src=opts.img, alt=opts.title
+      )
     .content
       .header= opts.title
       .description= opts.description
@@ -22,6 +25,9 @@ html
       .main.container {
         padding-top: 2em;
       }
+    script(src="//cdn.jsdelivr.net/blazy/1.5.4/blazy.min.js")
+    script.
+      ;new Blazy();
   body
     div.ui.main.container
       h1.ui.header 3846masa Apps
