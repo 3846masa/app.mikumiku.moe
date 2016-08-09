@@ -35,3 +35,7 @@ products:
     description: '[Under Development] Write a paper as markdown'
     href: ./paperist/
     img: ./assets/logos/png/paperist.png
+  - title: upload-gphotos
+    description: Upload photos to Google Photos
+    href: https://github.com/3846masa/upload-gphotos
+    img: ./assets/logos/png/upload-gphotos_logo.png
