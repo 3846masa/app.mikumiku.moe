@@ -3,6 +3,10 @@ products:
     description: Play niconico on ChromeCast
     href: https://nicocast.mikumiku.moe
     img: ./assets/logos/png/nicocast.png
+  - title: LGTM Camera on Web
+    description: Take the LGTM GIF on Web.
+    href: https://lgtm.mikumiku.moe
+    img: ./assets/logos/png/LGTMCamera.png
   - title: DOUGAZOSAN
     description: Markdown editor that be easy to quote
     href: ./DOUGAZOSAN/
