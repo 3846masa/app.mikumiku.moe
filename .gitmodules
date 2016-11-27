@@ -10,7 +10,3 @@
 	path = DOUGAZOSAN
 	url = https://github.com/3846masa/DOUGAZOSAN.git
 	branch = gh-pages
-[submodule "paperist"]
-	path = paperist
-	url = https://github.com/3846masa/paperist.git
-	branch = gh-pages
