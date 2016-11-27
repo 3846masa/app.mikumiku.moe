@@ -1,16 +1,4 @@
 products:
-  - title: NicoCast
-    description: Play niconico on ChromeCast
-    href: https://nicocast.mikumiku.moe
-    img: ./assets/logos/png/nicocast.png
-  - title: LGTM Camera on Web
-    description: Take the LGTM GIF on Web.
-    href: https://lgtm.mikumiku.moe
-    img: ./assets/logos/png/LGTMCamera.png
-  - title: DOUGAZOSAN
-    description: Markdown editor that be easy to quote
-    href: ./DOUGAZOSAN/
-    img: ./assets/logos/png/dougazosan.png
   - title: Processin.ga
     description: Processing.js WebIDE
     href: https://processin.ga
@@ -19,6 +7,26 @@ products:
     description: Dynamic subsetting system for Japanese fonts
     href: https://japont.mikumiku.moe
     img: ./assets/logos/png/japont.png
+  - title: NicoCast
+    description: Play niconico on ChromeCast
+    href: https://nicocast.mikumiku.moe
+    img: ./assets/logos/png/nicocast.png
+  - title: Paperist
+    description: Write a paper as markdown
+    href: https://paperist.mikumiku.moe
+    img: ./assets/logos/png/paperist.png
+  - title: upload-gphotos
+    description: Upload photos to Google Photos
+    href: https://github.com/3846masa/upload-gphotos
+    img: ./assets/logos/png/upload-gphotos_logo.png
+  - title: LGTM Camera on Web
+    description: Take the LGTM GIF on Web.
+    href: https://lgtm.mikumiku.moe
+    img: ./assets/logos/png/LGTMCamera.png
+  - title: DOUGAZOSAN
+    description: Markdown editor that be easy to quote
+    href: ./DOUGAZOSAN/
+    img: ./assets/logos/png/dougazosan.png
   - title: WindowHideTool
     description: Hide windows in an emergency
     href: ./WindowHideTool/
@@ -35,11 +43,3 @@ products:
     description: Customizable and static-servable URL shortener
     href: https://sush.ml
     img: ./assets/logos/png/sush.png
-  - title: Paperist
-    description: '[Under Development] Write a paper as markdown'
-    href: ./paperist/
-    img: ./assets/logos/png/paperist.png
-  - title: upload-gphotos
-    description: Upload photos to Google Photos
-    href: https://github.com/3846masa/upload-gphotos
-    img: ./assets/logos/png/upload-gphotos_logo.png
