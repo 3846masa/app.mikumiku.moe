@@ -24,9 +24,9 @@
   "homepage": "https://github.com/3846masa/app.mikumiku.moe#readme",
   "devDependencies": {
     "browser-sync": "^2.12.5",
-    "npm-run-all": "^1.8.0",
+    "npm-run-all": "^4.0.2",
     "pug-cli": "^1.0.0-alpha1",
-    "watch": "^0.17.1",
-    "yamljs": "0.2.8"
+    "watch": "^1.0.2",
+    "yamljs": "0.2.10"
   }
 }
